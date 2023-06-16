@@ -1,3 +1,3 @@
-#Odin Project: Recipes website (only HTML)
+#Odin Project: Recipes website
 
 Recipes Website

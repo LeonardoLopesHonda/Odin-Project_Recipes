@@ -6,20 +6,37 @@
 }
 
 body, html {
+    background: rgb(182, 159, 97);
     width: 100%;
-    height: 100%;
+    height: auto;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 100px;
 }
 
 .recipes-container {
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    flex-wrap: wrap;
+    gap: 4rem;
 }
 
 .recipe {
+    height: 400px;
     display: flex;
     position: relative;
     overflow: hidden;
@@ -44,4 +61,30 @@ body, html {
 .recipe:hover .slider {
     left: 0;
     background: rgba(200, 200, 200, 0.4);
+}
+
+.recipe-card {
+    width: 60%;
+    border: black 1px solid;
+}
+
+.food {
+    border: solid 1px black;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+.simple-text {
+    font-family: sans-serif;
+}
+
+.section {
+    width: 45%;
+}
+
+.decorated-section {
+    padding: 2rem;
+    border: solid 1px black;
 }

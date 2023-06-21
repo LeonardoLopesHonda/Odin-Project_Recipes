@@ -64,7 +64,7 @@ header img {
 }
 
 .recipe-card {
-    width: 60%;
+    width: 50%;
     border: black 1px solid;
 }
 
@@ -85,6 +85,7 @@ header img {
 }
 
 .decorated-section {
+    background: rgb(29, 29, 29);
     padding: 2rem;
     border: solid 1px black;
 }

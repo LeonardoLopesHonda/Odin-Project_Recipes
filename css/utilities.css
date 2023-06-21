@@ -110,17 +110,22 @@
 .simple-button {
     text-decoration: none;
     padding: 2rem;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.95);
     border-radius: 20px;
+
+    transition: transform 500ms ease,
+        background 500ms ease;
 }
 
 .simple-button:hover {
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.85);
     cursor: pointer;
 }
 
 /* Spaces */
 
 .spacer {
-    border-right: 1px solid black;
+    border-right: 1px solid whitesmoke;
     border-radius: 15px;
 }
